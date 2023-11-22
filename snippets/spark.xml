@@ -4,6 +4,9 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+    <remote name="buildbot"
+          fetch="https://github.com/BuildBots-Den"/>
+
   <remote name="spark"
           fetch="https://github.com/Spark-Rom"
           revision="refs/heads/pyro-next"/>
@@ -51,9 +54,9 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
-  <project path="frameworks/base" name="frameworks_base" remote="spark" />
+  <project path="frameworks/base" name="frameworks_base_sparknew" remote="buildbot" revision="pyro" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
-  <project path="frameworks/native" name="frameworks_native" remote="spark" />
+  <project path="frameworks/native" name="frameworks_native" remote="buildbot" revision="pyro-next" />
   <project path="external/yifan" name="platform_external_yifan" remote="spark" />
 
   <!-- General repos -->
@@ -61,7 +64,7 @@
   <project path="lineage-sdk" name="lineage-sdk" remote="spark" />
   <project path="bionic" name="bionic" remote="spark" />
   <project path="bootable/recovery" name="bootable_recovery" remote="spark" />
-  <project path="build/make" name="build_make" remote="spark" >
+  <project path="build/make" name="build_make" remote="buildbot" revision="pyro-next" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -77,9 +80,9 @@
   <project path="manifest" name="manifest" remote="spark" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings_spark" remote="buildbot" revision="pyro" />
   <project path="packages/apps/SparkWallpaperStub" name="packages_apps_SparkWallpaperStub" remote="spark" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
+  <project path="packages/apps/Launcher3" name="spark_packages_apps_Launcher3" remote="buildbot" revision="pyro" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
@@ -90,13 +93,13 @@
   <project path="packages/apps/FaceUnlock" name="platform_packages_apps_FaceUnlock" remote="spark" />
 
   <!-- Services repos -->
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="buildbot" revision="pyro-next" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" />
   <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="spark" />
 
   <!-- Modules repos -->
-  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="spark" />
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="buildbot" revision="pyro-next"/>
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
 
   <!-- System repos -->
@@ -105,8 +108,8 @@
 
   <!-- vendor repos -->
   <project path="vendor/gms" name="vendor_gms" remote="spark-gitlab" />  
-  <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="spark" />
+  <project path="vendor/spark" name="platform_vendor_spark" remote="buildbot" revision="pyro" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="buildbot" revision="spark"/>
   <project path="vendor/addons" name="vendor_addons" remote="spark" />
 
 </manifest>
