@@ -23,6 +23,10 @@
            fetch="https://gitlab.com/spkal01"
            revision="refs/heads/pyro" />
 
+  <remote  name="Dark-gitlab"
+           fetch="https://gitlab.com/dark.phnx12"
+           revision="refs/heads/pyro" />
+
   <remote  name="pe-gitlab"
            fetch="https://gitlab.pixelexperience.org/android"
            revision="refs/heads/thirteen" /> 
@@ -107,7 +111,7 @@
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="spark" />
 
   <!-- vendor repos -->
-  <project path="vendor/gms" name="vendor_gms" remote="spark-gitlab" />  
+  <project path="vendor/gms" name="vendor_gms" remote="Dark-gitlab" />  
   <project path="vendor/spark" name="platform_vendor_spark" remote="buildbot" revision="pyro" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="buildbot" revision="spark"/>
   <project path="vendor/addons" name="vendor_addons" remote="spark" />
