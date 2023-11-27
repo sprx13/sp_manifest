@@ -89,7 +89,7 @@
   <project path="packages/apps/Launcher3" name="spark_packages_apps_Launcher3" remote="buildbot" revision="pyro" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
-  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
+  <project path="packages/apps/Fireworks" name="spark_packages_apps_Fireworks" remote="buildbot" revision="pyro-next" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="spark" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="spark" />
   <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="spark" />  
