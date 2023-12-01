@@ -51,6 +51,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="buildbot" revision="pyro" />
 
   <!-- External repos -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
