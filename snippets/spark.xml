@@ -56,9 +56,10 @@
   <!-- External repos -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
   <project path="external/tigervnc" name="external_tigervnc" remote="spark" />
+  <project path="external/pdfium" name="android_external_pdfium" remote="buildbot" revision="pyro" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="spark" />
+  <project path="frameworks/av" name="spark_frameworks_av" remote="buildbot" revision="pyro-next" />
   <project path="frameworks/base" name="frameworks_base_sparknew" remote="buildbot" revision="pyro" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
   <project path="frameworks/native" name="frameworks_native" remote="buildbot" revision="pyro-next" />
@@ -83,6 +84,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="manifest" name="manifest" remote="spark" />
+  <project path="cts" name="android_cts" remote="buildbot" revision="pyro" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings_spark" remote="buildbot" revision="pyro" />
@@ -110,6 +112,7 @@
   <!-- System repos -->
   <project path="system/core" name="android_system_core" remote="spark" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="spark" />
+  <project path="system/netd" name="android_system_netd" remote="buildbot" revision="pyro" />
 
   <!-- vendor repos -->
   <project path="vendor/gms" name="vendor_gms" remote="Dark-gitlab" />  
