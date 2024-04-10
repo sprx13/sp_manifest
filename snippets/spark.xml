@@ -4,8 +4,8 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
-    <remote name="buildbot"
-          fetch="https://github.com/BuildBots-Den"/>
+    <remote name="sparkal"
+          fetch="https://github.com/jignesh2320"/>
 
   <remote name="spark"
           fetch="https://github.com/Spark-Rom"
@@ -51,18 +51,18 @@
 
   <!-- Hardware repos -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="buildbot" revision="pyro" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="sparkal" revision="pyro" />
 
   <!-- External repos -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
   <project path="external/tigervnc" name="external_tigervnc" remote="spark" />
-  <project path="external/pdfium" name="android_external_pdfium" remote="buildbot" revision="pyro" />
+  <project path="external/pdfium" name="android_external_pdfium" remote="sparkal" revision="pyro" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="spark_frameworks_av" remote="buildbot" revision="pyro-next" />
-  <project path="frameworks/base" name="frameworks_base_sparknew" remote="buildbot" revision="pyro" />
+  <project path="frameworks/av" name="spark_frameworks_av" remote="sparkal" revision="pyro-next" />
+  <project path="frameworks/base" name="frameworks_base_sparknew" remote="sparkal" revision="pyro" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
-  <project path="frameworks/native" name="frameworks_native" remote="buildbot" revision="pyro-next" />
+  <project path="frameworks/native" name="frameworks_native" remote="sparkal" revision="pyro-next" />
   <project path="external/yifan" name="platform_external_yifan" remote="spark" />
 
   <!-- General repos -->
@@ -70,7 +70,7 @@
   <project path="lineage-sdk" name="lineage-sdk" remote="spark" />
   <project path="bionic" name="bionic" remote="spark" />
   <project path="bootable/recovery" name="bootable_recovery" remote="spark" />
-  <project path="build/make" name="build_make" remote="buildbot" revision="pyro-next" >
+  <project path="build/make" name="build_make" remote="sparkal" revision="pyro-next" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -84,15 +84,15 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="manifest" name="manifest" remote="spark" />
-  <project path="cts" name="android_cts" remote="buildbot" revision="pyro" />
+  <project path="cts" name="android_cts" remote="sparkal" revision="pyro" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings_spark" remote="buildbot" revision="pyro" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings_spark" remote="sparkal" revision="pyro" />
   <project path="packages/apps/SparkWallpaperStub" name="packages_apps_SparkWallpaperStub" remote="spark" />
-  <project path="packages/apps/Launcher3" name="spark_packages_apps_Launcher3" remote="buildbot" revision="pyro" />
+  <project path="packages/apps/Launcher3" name="spark_packages_apps_Launcher3" remote="sparkal" revision="pyro" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
-  <project path="packages/apps/Fireworks" name="spark_packages_apps_Fireworks" remote="buildbot" revision="pyro-next" />
+  <project path="packages/apps/Fireworks" name="spark_packages_apps_Fireworks" remote="sparkal" revision="pyro-next" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="spark" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="spark" />
   <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="spark" />  
@@ -100,24 +100,24 @@
   <project path="packages/apps/FaceUnlock" name="platform_packages_apps_FaceUnlock" remote="spark" />
 
   <!-- Services repos -->
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="buildbot" revision="pyro-next" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="sparkal" revision="pyro-next" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" />
   <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="spark" />
 
   <!-- Modules repos -->
-  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="buildbot" revision="pyro-next"/>
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="sparkal" revision="pyro-next"/>
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
 
   <!-- System repos -->
   <project path="system/core" name="android_system_core" remote="spark" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="spark" />
-  <project path="system/netd" name="android_system_netd" remote="buildbot" revision="pyro" />
+  <project path="system/netd" name="android_system_netd" remote="sparkal" revision="pyro" />
 
   <!-- vendor repos -->
   <project path="vendor/gms" name="vendor_gms" remote="Dark-gitlab" />  
-  <project path="vendor/spark" name="platform_vendor_spark" remote="buildbot" revision="pyro" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="buildbot" revision="spark"/>
+  <project path="vendor/spark" name="platform_vendor_spark" remote="sparkal" revision="pyro" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sparkal" revision="spark"/>
   <project path="vendor/addons" name="vendor_addons" remote="spark" />
 
 </manifest>
