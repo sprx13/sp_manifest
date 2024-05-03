@@ -98,6 +98,7 @@
   <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="spark" />  
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="spark" />
   <project path="packages/apps/FaceUnlock" name="platform_packages_apps_FaceUnlock" remote="spark" />
+  <project path="packages/overlays/Themes" name="packages_overlays_Themes" revision="QPR2" remote="sparkal" />
 
   <!-- Services repos -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="sparkal" revision="pyro-next" />
