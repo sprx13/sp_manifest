@@ -119,5 +119,6 @@
   <project path="vendor/spark" name="platform_vendor_spark" remote="sparkal" revision="pyro" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sparkal" revision="spark"/>
   <project path="vendor/addons" name="vendor_addons" remote="spark" />
+  <project path="vendor/bcr" name="vendor_bcr" remote="sparkal" revision="main" />
 
 </manifest>
