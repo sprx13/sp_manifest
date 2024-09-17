@@ -57,6 +57,7 @@
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
   <project path="external/tigervnc" name="external_tigervnc" remote="spark" />
   <project path="external/pdfium" name="android_external_pdfium" remote="sparkal" revision="pyro" />
+    <project path="external/boringssl" name="android_external_boringssl" remote="sparkal" revision="pyro" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="spark_frameworks_av" remote="sparkal" revision="pyro-next" />
