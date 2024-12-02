@@ -5,7 +5,7 @@
            fetch="https://gitlab.com" />
 
     <remote name="qqz"
-          fetch="https://github.com/sprx13"/>
+          fetch="ssh://git@github.com/sprx13"/>
 
   <remote name="spark"
           fetch="https://github.com/Spark-Rom"
