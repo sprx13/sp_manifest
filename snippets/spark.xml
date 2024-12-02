@@ -5,7 +5,7 @@
            fetch="https://gitlab.com" />
 
     <remote name="qqz"
-          fetch="ssh://git@github.com/sprx13"/>
+          fetch="https://github.com/sprx13"/>
 
   <remote name="spark"
           fetch="https://github.com/Spark-Rom"
@@ -43,9 +43,9 @@
            fetch="https://gitlab.com/Project-Kaleidoscope"
            revision="refs/heads/sunflowerleaf" />
 
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" groups="pdk-fs" remote="qqz" />
-  <project path="external/AndroidSystemBlur" name="external_AndroidSystemBlur" remote="qqz" />
-  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="qqz" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" groups="pdk-fs" remote="qqz" revision="13" />
+  <project path="external/AndroidSystemBlur" name="external_AndroidSystemBlur" remote="qqz" revision="13" />
+  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="qqz" revision="13" />
 
   <!-- Device repos -->
   <project path="device/spark/sepolicy" name="device_spark_sepolicy" remote="spark" />
