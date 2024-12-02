@@ -21,7 +21,7 @@ To initialize your local repository, run this command:
 ------------------------------------------------------
 
 ```bash
-   repo init -u https://github.com/jignesh2320/manifest_spark -b pyro-next
+   repo init -u https://github.com/sprx13/sp_manifest -b pyro-next
 ```
 
 Afterwards, sync the source by running this command:
