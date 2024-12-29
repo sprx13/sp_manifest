@@ -43,9 +43,9 @@
            fetch="https://gitlab.com/Project-Kaleidoscope"
            revision="refs/heads/sunflowerleaf" />
 
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" groups="pdk-fs" remote="qqz" revision="13" />
-  <project path="external/AndroidSystemBlur" name="external_AndroidSystemBlur" remote="qqz" revision="13" />
-  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="qqz" revision="13" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" groups="pdk-fs" remote="sp" revision="13" />
+  <project path="external/AndroidSystemBlur" name="external_AndroidSystemBlur" remote="sp" revision="13" />
+  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="sp" revision="13" />
 
   <!-- Device repos -->
   <project path="device/spark/sepolicy" name="device_spark_sepolicy" remote="spark" />
@@ -55,19 +55,19 @@
 
   <!-- Hardware repos -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="qqz" revision="pyro" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="sp" revision="pyro" />
 
   <!-- External repos -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
   <project path="external/tigervnc" name="external_tigervnc" remote="spark" />
-  <project path="external/pdfium" name="android_external_pdfium" remote="qqz" revision="pyro" />
-    <project path="external/boringssl" name="android_external_boringssl" remote="qqz" revision="pyro" />
+  <project path="external/pdfium" name="android_external_pdfium" remote="sp" revision="pyro" />
+    <project path="external/boringssl" name="android_external_boringssl" remote="sp" revision="pyro" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="spark_frameworks_av" remote="qqz" revision="pyro-next" />
-  <project path="frameworks/base" name="sp_fwb" remote="qqz" revision="pyro" />
+  <project path="frameworks/av" name="spark_frameworks_av" remote="sp" revision="pyro-next" />
+  <project path="frameworks/base" name="sp_fwb" remote="sp" revision="pyro" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
-  <project path="frameworks/native" name="frameworks_native" remote="qqz" revision="pyro-next" />
+  <project path="frameworks/native" name="frameworks_native" remote="sp" revision="pyro-next" />
   <project path="external/yifan" name="platform_external_yifan" remote="spark" />
 
   <!-- General repos -->
@@ -75,7 +75,7 @@
   <project path="lineage-sdk" name="lineage-sdk" remote="spark" />
   <project path="bionic" name="bionic" remote="spark" />
   <project path="bootable/recovery" name="bootable_recovery" remote="spark" />
-  <project path="build/make" name="build_make" remote="qqz" revision="pyro-next" >
+  <project path="build/make" name="build_make" remote="sp" revision="pyro-next" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -89,42 +89,42 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="manifest" name="manifest" remote="spark" />
-  <project path="cts" name="android_cts" remote="qqz" revision="pyro" />
+  <project path="cts" name="android_cts" remote="sp" revision="pyro" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings_spark" remote="qqz" revision="pyro" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings_spark" remote="sp" revision="pyro" />
   <project path="packages/apps/SparkWallpaperStub" name="packages_apps_SparkWallpaperStub" remote="spark" />
-  <project path="packages/apps/Launcher3" name="spark_packages_apps_Launcher3" remote="qqz" revision="pyro" />
+  <project path="packages/apps/Launcher3" name="spark_packages_apps_Launcher3" remote="sp" revision="pyro" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
-  <project path="packages/apps/Fireworks" name="spark_packages_apps_Fireworks" remote="qqz" revision="pyro-next" />
+  <project path="packages/apps/Fireworks" name="spark_packages_apps_Fireworks" remote="sp" revision="pyro-next" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="spark" />
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="qqz" revision="pyro-next" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="sp" revision="pyro-next" />
   <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="spark" />  
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="spark" />
   <project path="packages/apps/FaceUnlock" name="platform_packages_apps_FaceUnlock" remote="spark" />
 
   <!-- Services repos -->
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="qqz" revision="pyro-next" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="sp" revision="pyro-next" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" />
   <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="spark" />
 
   <!-- Modules repos -->
-  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="qqz" revision="pyro-next"/>
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="sp" revision="pyro-next"/>
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
 
   <!-- System repos -->
   <project path="system/core" name="android_system_core" remote="spark" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="spark" />
-  <project path="system/netd" name="android_system_netd" remote="qqz" revision="pyro" />
-  <project path="system/security" name="android_system_security" remote="qqz" />
+  <project path="system/netd" name="android_system_netd" remote="sp" revision="pyro" />
+  <project path="system/security" name="android_system_security" remote="sp" />
 
   <!-- vendor repos -->
   <project path="vendor/gms" name="vendor_gms" remote="Dark-gitlab" />  
-  <project path="vendor/spark" name="platform_vendor_spark" remote="qqz" revision="pyro" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="qqz" revision="spark"/>
+  <project path="vendor/spark" name="platform_vendor_spark" remote="sp" revision="pyro" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="sp" revision="spark"/>
   <project path="vendor/addons" name="vendor_addons" remote="spark" />
-  <project path="vendor/bcr" name="vendor_bcr" remote="qqz" revision="main" />
+  <project path="vendor/bcr" name="vendor_bcr" remote="sp" revision="main" />
 
 </manifest>
