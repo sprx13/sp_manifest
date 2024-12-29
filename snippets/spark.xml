@@ -4,7 +4,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
-    <remote name="qqz"
+    <remote name="sp"
           fetch="ssh://git@github.com/sprx13"/>
 
   <remote name="spark"
